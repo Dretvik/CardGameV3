@@ -1,0 +1,82 @@
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vh;
+    background-color: darkgrey;
+}
+#cardGameContainer {
+    display: grid;
+    gap: 0vw;
+    grid-template-columns: repeat(1, 60vw);
+    justify-content: center;
+    height: 65vw;
+    width: 85vw;
+    border: 1px solid black;
+}
+p {
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin: 0vw;
+    padding: 0vw;
+}
+#drawCardsButton {
+    height: 4vw;
+    width: 10vw;
+}
+#cardsOnTableContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 9vw);
+    gap: 0.8vw;
+    border: 1px solid black;
+    max-height: 40vw;
+    width: 60vw;
+    background-color: lightcyan;
+    overflow-y: auto;
+    padding-top: 4vw;
+    padding-left: 1vw;
+}
+#cardsOnHandContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 9vw);
+    gap: 0.8vw;
+    border: 1px solid black;
+    max-height: 20vw;
+    max-width: 60vw;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 4vw;
+    padding-left: 1vw;
+    overflow-y: auto;
+}
+#deckofCardsDiv{
+    display: grid;
+    grid-template-columns: repeat(6, 9vw);
+    grid-gap: 0.8vw;
+    margin-left: 2vw;
+
+}
+.cardImage{
+    width: 3vw;
+    height: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardDiv{
+    height: 15vw;
+    width: 8vw;
+    border: 1px solid black;
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1.7vw;
+    background-color: rgb(250, 241, 225);
+    cursor: pointer;
+    user-select: none;
+    
+}
